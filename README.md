@@ -54,12 +54,6 @@ Finally, start the Streamlit app:
 
 The web interface can be accessed at http://localhost:8501.
 
-Supported Models
-The following machine learning models are currently supported by the project:
-
-Model 1: Description of the model and its intended use.
-Model 2: Description of the model and its intended use.
-Model 3: Description of the model and its intended use.
 Contributing
 Contributions are welcome! If you find any issues or want to add a new feature, please open an issue or submit a pull request.
 
