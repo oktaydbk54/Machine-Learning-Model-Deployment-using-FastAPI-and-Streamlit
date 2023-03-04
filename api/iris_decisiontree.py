@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 import pickle
 
 # Load the Iris dataset
-iris_df = pd.read_csv('iris.csv')
+iris_df = pd.read_csv('IRIS.csv')
 
 # Split the dataset into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(
