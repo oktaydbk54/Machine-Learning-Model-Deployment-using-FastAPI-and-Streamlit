@@ -8,7 +8,7 @@ app = FastAPI()
 @app.post('/predict/DecisionTree')
 async def predict(data: List[float]):
 
-    model = joblib.load("DecisionTree.pkl")
+    model = joblib.load("models/DecisionTree.pkl")
 
     prediction = model.predict([data])[0]
     return prediction
@@ -16,7 +16,7 @@ async def predict(data: List[float]):
 @app.post('/predict/KNN')
 async def predict(data: List[float]):
 
-    model = joblib.load("KNN.pkl")
+    model = joblib.load("models/KNN.pkl")
 
     prediction = model.predict([data])[0]
     return prediction
@@ -24,7 +24,7 @@ async def predict(data: List[float]):
 @app.post('/predict/LogisticRegression')
 async def predict(data: List[float]):
 
-    model = joblib.load("logistic_regression_model.pkl")
+    model = joblib.load("models/logistic_regression_model.pkl")
 
     prediction = model.predict([data])[0]
     return prediction
